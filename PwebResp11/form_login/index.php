@@ -6,6 +6,9 @@
     }
 
 ?>
+<?php if (isset($_GET['error'])): ?>
+    <p style="color: red;">Login gagal. Username atau password salah.</p>
+<?php endif; ?>
 
 <!DOCTYPE html>
 <html lang="en">
